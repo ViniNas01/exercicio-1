@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=s, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulario 2</title>
+
+</head>
+<body>
+    <div class="formulario">
+        <form name="formulario2" method="post">
+            <div class="titulo">
+                <h1 class="titulo">Cadastre-se na AWS</h1>
+            </div>
+            <div class="conteudo">
+                <div class="informacao">
+                    <h2>Informação de Contato</h2>
+                    <h3 class="subtitulo" class="subtitulo">Como você planeja usar o AWS?</h3 class="subtitulo">
+                    <div class="subtitulo">
+                        <input type="radio" name="informacao" value="business">Négocios - para o seu trabalho, escola ou organização <br>
+                        <input type="radio" name="informacao" value="pessoal"> Pessoal - para seus próprios projetos
+                    </div>
+                </div>
+                <div>
+                    <h2 class="subtitulo" class="subtitulo">Quem nós podemos contatar sobre esta conta?</h2 class="subtitulo">
+                </div>
+                <div class="nome">
+                    <h3 class="subtitulo">Nome completo</h3 class="subtitulo">
+                    <div class="input">
+                        <input class="input" type="text" name="fullname">
+                    </div>
+                </div>
+                <div class="telefone">
+                    <h3 class="subtitulo">Número de telefone</h3 class="subtitulo">
+                    <p class="texto">Digite o código postal do seu país e seu número de telefone</p>
+                    <div>
+                        <input class="input" type="tel" name="telefone" placeholder="+55 (00) 00000-0000">
+                    </div>
+                </div>
+                <div class="pais">
+                    <h3 class="subtitulo">País ou Região</h3 class="subtitulo">
+                    <div>
+                        <select class="pais">
+                            <option value="Brasil">Brasil</option>
+                            <option value="EUA">EUA</option>
+                            <option value="França">França</option>
+                            <option value="Argentina">Argentina</option>
+                            <option value="Japão">Japão</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="endereco">
+                    <h3 class="subtitulo">Endereço</h3 class="subtitulo">
+                    <div class="address">
+                        <input class="input" type="text" name="endereco"> <br>
+                        <input class="input" type="text" name="endereco" placeholder="Complemento">
+                    </div>
+                </div>
+                <div>
+                    <h3 class="subtitulo">Cidade</h3 class="subtitulo">
+                    <div>
+                        <input class="input" type="text" name="cidade">
+                    </div>
+                </div>
+                <div>
+                    <h3 class="subtitulo">Estado</h3 class="subtitulo">
+                    <div>
+                        <input class="input" type="text" name="estado">
+                    </div>
+                </div>
+                <div>
+                    <h3 class="subtitulo">Código Postal</h3 class="subtitulo">
+                    <div>
+                        <input class="input" type="text" name="postal">
+                    </div>
+                </div>
+                <div id="termos">
+                    <input type="checkbox" name="termos" value="termos" required> Eu li e concordo com os termos da <a href="#">Acordo Personalizado AWS</a>.
+                </div>
+                <div>
+                    <button type="submit" class="botao">
+                        <span class="letra">Continuar (passo 2 de 3)</a></span>
+                    </button>
+                </div>
+                <div >
+                    <div class="proximo">
+                        <figure class="esquerda">
+                            <a href="form_etapa1.html"><img class="seta" src="imagens/seta.png" alt="Seta"></a>
+                        </figure>
+                        <figure>
+                            <a href="form_etapa3.html"><img class="seta" src="imagens/seta.png" alt="Seta"></a>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+
+
+</body>
+</html>

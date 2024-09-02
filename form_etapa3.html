@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário 3</title>
+</head>
+<body>
+    <div class="formulario">
+        <form name="formulario3" method="post">
+            <div class="titulo">
+                <h1 class="titulo">Cadastre-se na AWS</h1>
+            </div>
+            <div class="conteudo">
+                <div class="cartao">
+                    <h2>Informações de cobrança</h2>
+                    <h3 class="subtitulo">Número de cartão de crédito</h3>
+                    <div>
+                        <input class="input" type="text">
+                    </div>
+                    <figure class="card">
+                        <img class="visa" src="imagens/cartao.jpg" alt="Visa e Mastercard">
+                    </figure>
+                    <p class="texto">AWS aceita os principais cartões de crédito. Para aprender mais sobre opções de pagamentos, reveja nosso <a class="termos" href="#">FAQ</a></p>
+                </div>
+                <div class="datas">
+                    <h3 class="subtitulo">Data de expiração</h3>
+                    <div>
+                        <select class="data">
+                            <option value="" disabled selected>Mês</option>
+                            <option value="01">Janeiro</option>
+                            <option value="02">Favereiro </option>
+                            <option value="03">Março</option>
+                            <option value="04">Abril</option>
+                            <option value="05">Maio</option>
+                            <option value="06">Junho</option>
+                            <option value="07">Julho</option>
+                            <option value="08">Agosto</option>
+                            <option value="09">Setembro</option>
+                            <option value="10">Outubro</option>
+                            <option value="11">Novembro</option>
+                            <option value="12">Dezembro</option>
+                        </select>
+                        <select class="data">
+                            <option value="" disabled selected>Ano</option>
+                            <option value="24">2024</option>
+                            <option value="25">2025</option>
+                            <option value="26">2026</option>
+                            <option value="24">2027</option>
+                            <option value="28">2028</option>
+                            <option value="29">2029</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="nomecartao">
+                    <h3 class="subtitulo"> Nome do titular do cartão</h3>
+                    <input class="input" type="text" name="nome">
+                </div>
+                <div class="cardcobrança">
+                    <h3 class="subtitulo">Endereço de cobrança</h3>
+                    <div class="subtitulo">
+                        <input type="radio"> Utilize meu contato de endereco <br>
+                        <div class="endereco1">
+                            <p class="texto">Rua</p>
+                            <p class="texto">Bairro - Cidade - Número</p>
+                            <p class="texto">Estado</p>
+                        </div>
+                    </div>
+                    <div class="subtitulo">
+                        <input type="radio">Utilize um novo endereco
+                    </div>
+                </div>
+                <div>
+                    <button type="button" class="botao">
+                        <a class="letra">Confirmar (passo 3 de 3)</a>
+                    </button>
+                </div>
+                <div>
+                    <figure>
+                        <a href="form_etapa2.html"><img class="left" src="imagens/seta.png" alt="Seta"></a>
+                    </figure>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    
+</body>
+</html>
